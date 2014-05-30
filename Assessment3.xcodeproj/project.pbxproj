@@ -21,6 +21,8 @@
 		938F38D519392AC100F6BF30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938F38B719392AC100F6BF30 /* UIKit.framework */; };
 		938F38DD19392AC100F6BF30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 938F38DB19392AC100F6BF30 /* InfoPlist.strings */; };
 		938F38DF19392AC100F6BF30 /* Assessment3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 938F38DE19392AC100F6BF30 /* Assessment3Tests.m */; };
+		938F38EA19392E9A00F6BF30 /* DivvyStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 938F38E919392E9A00F6BF30 /* DivvyStation.m */; };
+		938F38ED1939394200F6BF30 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938F38EC1939394200F6BF30 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		938F38DA19392AC100F6BF30 /* Assessment3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assessment3Tests-Info.plist"; sourceTree = "<group>"; };
 		938F38DC19392AC100F6BF30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		938F38DE19392AC100F6BF30 /* Assessment3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assessment3Tests.m; sourceTree = "<group>"; };
+		938F38E819392E9A00F6BF30 /* DivvyStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivvyStation.h; sourceTree = "<group>"; };
+		938F38E919392E9A00F6BF30 /* DivvyStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivvyStation.m; sourceTree = "<group>"; };
+		938F38EB1939394200F6BF30 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		938F38EC1939394200F6BF30 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,13 @@
 		938F38B919392AC100F6BF30 /* Assessment3 */ = {
 			isa = PBXGroup;
 			children = (
-				938F38C219392AC100F6BF30 /* AppDelegate.h */,
-				938F38C319392AC100F6BF30 /* AppDelegate.m */,
 				938F38C519392AC100F6BF30 /* Main.storyboard */,
+				938F38EB1939394200F6BF30 /* DetailViewController.h */,
+				938F38EC1939394200F6BF30 /* DetailViewController.m */,
 				938F38C819392AC100F6BF30 /* ViewController.h */,
 				938F38C919392AC100F6BF30 /* ViewController.m */,
+				938F38E819392E9A00F6BF30 /* DivvyStation.h */,
+				938F38E919392E9A00F6BF30 /* DivvyStation.m */,
 				938F38CB19392AC100F6BF30 /* Images.xcassets */,
 				938F38BA19392AC100F6BF30 /* Supporting Files */,
 			);
@@ -126,6 +134,8 @@
 		938F38BA19392AC100F6BF30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				938F38C219392AC100F6BF30 /* AppDelegate.h */,
+				938F38C319392AC100F6BF30 /* AppDelegate.m */,
 				938F38BB19392AC100F6BF30 /* Assessment3-Info.plist */,
 				938F38BC19392AC100F6BF30 /* InfoPlist.strings */,
 				938F38BF19392AC100F6BF30 /* main.m */,
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938F38ED1939394200F6BF30 /* DetailViewController.m in Sources */,
 				938F38CA19392AC100F6BF30 /* ViewController.m in Sources */,
+				938F38EA19392E9A00F6BF30 /* DivvyStation.m in Sources */,
 				938F38C419392AC100F6BF30 /* AppDelegate.m in Sources */,
 				938F38C019392AC100F6BF30 /* main.m in Sources */,
 			);
